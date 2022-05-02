@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Linda's Portfolio: Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<img class="logo" src="images/logo2.png" height="125" width="218" alt="Linda's Logo" class="img-fluid logo">
+	</header>
+
+	<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      	<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+		      	<li class="nav-item"><a class="nav-link" href="resume.html" style="color:white;">Resume</a></li>
+		      	<li class="nav-item"><a class="nav-link" href="portfolio.html" style="color:white;">Portfolio</a></li>
+		      	<li class="nav-item"><a class="nav-link" href="multimedia.html" style="color:white;">Multimedia</a></li>
+		      	<li class="nav-item"><a class="nav-link" href="gallery.html" style="color:white;">Gallery</a></li>
+		      	<li class="nav-item"><a class="nav-link" href="contact.html" style="color:white;">Contact</a></li>
+		      	<li class="nav-item"><a class="nav-link" href="animation.html" style="color:white;">2D Web Animation</a></li>  
+		    </ul>    
+		</div>
+	</nav>
+
+ 	<!-- This is the main section -->
+ 	<main>
+ 		<div class="container-fluid">
+			<div class="row-form">
+				<div class="col-sm-12">
+					<h1>Contact Me</h1>
+		  			<p>This is a form that I made in HTML and styled with CSS. This form doesn't contact me, but it does process with a PHP script. If you fill it out and submit the form, the form checks for completeness and prints your form entries to the screen.</p>
+
+					<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+						<label for="first_name">*First Name</label>
+						<input type="text" name="first_name" id="first_name" required="required">
+
+						<label for="last_name">*Last Name</label>
+						<input type="text" name="last_name" id="last_name" required="required">
+
+						<label for="email">*Email</label>
+						<input type="email" name="email" id="email" required="required">
+
+						<label for="phone">Phone</label>
+						<input type="tel" name="phone" id="phone">
+
+						<label for="comments">Comments</label> 
+						<textarea name="comments" id="comments" rows="2" cols="22"></textarea>
+
+						<input type="submit" value="Submit" id="mySubmit">
+					</form>
+
+				</div>
+			</div>
+		</div>	
+	</main>
+   		
+   	<footer>
+      		<div class="row footer1200">			  			  
+                <div class="col-sm-6" >
+					<h4 >Portfolio for Web Fundamentals/HTML</h4>
+                	<p>I apply what I have learned from my Web Fundamentals/HTML at Saint Paul College to make my portfolio looks great. I am gaining as much experience as I work through all the labs. I enjoy taking nature pictures and you will see some of them as you go through my portfolio.</p>	
+                </div>
+                <div class="col-sm-6" >		
+                    <h4>Let's Connect!</h4>
+                	<a href="https://www.facebook.com/mytrieu.nguyen.5"><p><i class="fa fa-facebook-official" style="font-size:30px; color:white"></i> Facebook</p></a>
+					<a href="https://www.linkedin.com/in/linda-nguyen-066103219"><p><i class="fa fa-linkedin-square" style="font-size:30px; color:white"></i> LinkedIn</p></a>
+					<a href="mailto:linda.nguyen@my.metrostate.edu"><p><i class="fa fa-envelope" style="font-size:30px; color:white"></i> Email</p></a>	
+				</div>
+			</div>
+
+         	<div class="footer-bottom">
+         		<small>&copy; Linda Nguyen. All rights reserved.</small>
+		  	</div>
+	</footer>
+	
+<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

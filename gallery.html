@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Linda's Portfolio: Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<img class="logo" src="images/logo2.png" height="125" width="218" alt="Linda's Logo" class="img-fluid logo">
+	</header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume.html" style="color:white;">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html" style="color:white;">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="multimedia.html" style="color:white;">Multimedia</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html" style="color:white;">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html" style="color:white;">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="animation.html" style="color:white;">2D Web Animation</a></li> 
+            </ul>    
+        </div>
+    </nav>
+
+ 	<!-- This is the main section -->
+    <main><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Tulips in Minnesota Landscape Arboretum</h2>
+                    <blockquote>Every year, a field of colorful tulips becomes the highlight of the season at the Minnesota Landscape Arboretum. Most tulips bloom at the Minnesota Landscape Arboretum in mid-May. The Arboretum has 45 plant collections and more than 5,000 plant species and varieties. The flowers can remain in bloom for two weeks or longer. I took these photos on Saturday May 8, 2021.</blockquote>
+                </div>
+            </div>
+        </div>
+        
+            <div class="row">
+               <div class="col-sm-12">
+                <div class="gallery">
+
+                    <div class="preview">
+                        <img id="preview" src="images/03.jpg" class="tulips-style" alt="" height="530" width="800"/><p>
+                    </div>
+
+                    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center;">
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img1').src" id="img1" src="images/01.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/02.jpg" alt=""  />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img3').src;" id="img3" src="images/03.jpg" alt=""  />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img4').src;" id="img4" src="images/04.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img5').src;" id="img5" src="images/05.jpg" alt=""  />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img6').src;" id="img6" src="images/06.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img7').src;" id="img7" src="images/07.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img8').src;" id="img8" src="images/08.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img9').src;" id="img9" src="images/09.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img10').src;" id="img10" src="images/10.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img11').src;" id="img11" src="images/11.jpg" alt="" />
+                        <img onclick="document.getElementById('preview').src= document.getElementById('img12').src;" id="img12" src="images/12.jpg" alt="" />
+                    </div>
+
+                </div>
+               </div>
+            </div>
+    </main>
+   		
+    <footer>
+            <div class="row footer1200">                          
+                <div class="col-sm-6" >
+                    <h4 >Portfolio for Web Fundamentals/HTML</h4>
+                    <p>I apply what I have learned from my Web Fundamentals/HTML at Saint Paul College to make my portfolio looks great. I am gaining as much experience as I work through all the labs. I enjoy taking nature pictures and you will see some of them as you go through my portfolio.</p>    
+                </div>
+                <div class="col-sm-6" >     
+                    <h4>Let's Connect!</h4>
+                    <a href="https://www.facebook.com/mytrieu.nguyen.5"><p><i class="fa fa-facebook-official" style="font-size:30px; color:white"></i> Facebook</p></a>
+                    <a href="https://www.linkedin.com/in/linda-nguyen-066103219"><p><i class="fa fa-linkedin-square" style="font-size:30px; color:white"></i> LinkedIn</p></a>
+                    <a href="mailto:linda.nguyen@my.metrostate.edu"><p><i class="fa fa-envelope" style="font-size:30px; color:white"></i> Email</p></a> 
+                </div>  
+            </div>
+
+            <div class="footer-bottom">
+            <small>&copy; Linda Nguyen. All rights reserved.</small>
+            </div>
+    </footer>
+	
+    <!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
